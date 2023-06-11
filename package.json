@@ -1,0 +1,19 @@
+{
+  "name": "restaurantapp",
+  "version": "1.0.0",
+  "description": "Restaurant app where you can order food",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.3.9"
+  }
+}
+
+

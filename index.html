@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Restaurant App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Matthew's Diner</h1>
+      <p>The best, burgers and pizzas in town.</p>
+    </header>
+    <main>
+      <div id="food-container"></div>
+    </main>
+    <footer>
+      <div id="food-order"></div>
+    </footer>
+
+    <!-- card container -->
+    <div class="payment-container">
+      <button id="exit">X</button>
+      <h2 id="payment-container-title">Enter card details</h2>
+      <form id="payment-form">
+        <input type="text" placeholder="Enter your name" id="name" required />
+        <input
+          type="text"
+          placeholder="Enter card number"
+          id="card-number"
+          required
+        />
+        <input type="text" placeholder="Enter CCV" id="ccv-number" required />
+        <button id="pay-btn" class="btn">Pay</button>
+        <div id="error"></div>
+      </form>
+    </div>
+
+    <script src="./src/scripts/index.js" type="module"></script>
+  </body>
+</html>
